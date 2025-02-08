@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Artículo Topologías de red</title>
+    </head>
+    <body>
+        <div class="titulo">
+            <header>Topologías de red</header>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Netzwerktopologie_Stern.png" alt="topologia-image">
+        </div>
+        <div>
+            <nav id="navbar">
+                <header>Topologías de Redes</header>
+                <ul>
+                    <li><a class="nav-link" href="#Descripcion_general">Descripcion general</a></li>
+                    <li><a class="nav-link" href="#Que_son_las_topologias_de_red">Que son las topologias de red</a></li>
+                    <li><a class="nav-link" href="#Diseño_de_una_topologia_de_red">Diseño de una topologia de red</a></li>
+                    <li><a class="nav-link" href="#Topologias_estandar">Topologias estandar</a></li>
+                    <li><a class="nav-link" href="#Consideraciones_sobre_hubs">Consideraciones sobre hubs</a></li>
+                    <li><a class="nav-link" href="#Como_formarte_en_redes_informaticas">Como formarte en redes informaticas</a></li>
+                    <li><a class="nav-link" href="#Herramientas_de_software">Herramientas de software</a></li>
+                    <li><a class="nav-link" href="#Referencias">Referencias</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main id="main-doc">
+            <section class="main-section" id="Descripcion_general">
+                <header>Descripcion general</header>
+                <article>
+                    <p>
+                        Las topologías de red se refieren a la forma en la que se organizan los elementos que 
+                        conforman una red de comunicaciones y la forma física que tienen los equipos y el 
+                        cableado de red. En este artículo te explicamos cómo son las topologías de red y los 
+                        diferentes tipos, además de como formarte en este ámbito. Toma nota.
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Que_son_las_topologias_de_red">
+                <header>Que son las topologias de red</header>
+                <article>
+                    <p>
+                        Las redes informáticas sirven para conectar móviles, ordenadores en lugares como 
+                        oficinas, industrias, hogares, etc. Para que funcionen correctamente debe planificarse 
+                        una topología de red.
+                    </p>
+                    <p>
+                        Las topologías de red se refieren a la forma en la que está dispuesta una red, 
+                        incluyendo sus nodos y las líneas utilizadas para asegurar la transmisión y recepción 
+                        de datos de manera correcta y segura.
+                    </p>
+                    <p>
+                        En función de esta disposición se pueden evitar cortes innecesarios o incrementar el 
+                        flujo de la información transmitida.
+                    </p>
+                    <p>
+                        En definitiva, las topologías de red es la forma en la que se organizan los elementos 
+                        de una red de comunicaciones. La estructura de las topologías de red se puede 
+                        representar física o lógicamente. Estos son los dos niveles en que se divide la 
+                        topología.
+                    </p>
+                    <p>
+                        La topología de red física se refiere a cómo se conectan los dispositivos físicos con 
+                        cables y antenas. Es la ubicación de los diversos componentes de una red. Los 
+                        conectores representan los cables de red físicos y los nodos los dispositivos de red 
+                        físicos.
+                    </p>
+                    <p>
+                        La topología de red lógica es la forma en la que fluyen los datos y en la que una red 
+                        transfiere tramas de un nodo al siguiente. Está en el nivel más alto y tiene en cuenta 
+                        las subredes que existen y cómo se interconectan. 
+                    </p>
+                    <p>
+                        Para que todos los componentes vinculados funcionen de forma correcta es imprescindible 
+                        que la red informática esté bien estructurada.  La red debe adaptarse a todos los 
+                        dispositivos, ya sean computadores, impresoras, servidores, hubs, switches, 
+                        televisiones, cámaras de seguridad, etc. para que se cumplan los requerimientos y 
+                        funcionen de forma correcta. 
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Diseño_de_una_topologia_de_red">
+                <header>Diseño de una topologia de red</header>
+                <article>
+                   <p>
+                        El término topología, o más especificamente, topología de red, se refiere a la organización
+                        o distribución física de los equipos, cables y otros componentes de la red de computadoras.
+                        Topología es el término estándar que utilizan la mayoría de profesionales de las redes 
+                        cuando se refieren al diseño básico de la red. Además del término "topología", encontrará
+                        algunos otros términos que utilizan para definir el diseño de una red:
+                    </p> 
+                    <ul>
+                        <li>Esquema físico</li>
+                        <li>Diseño</li>
+                        <li>Diagrama</li>
+                        <li>Mapa</li>
+                    </ul>
+                    <p>
+                        La topología de una red afecta a sus capacidades. La selección de una topología tendrá 
+                        impacto sobre:
+                    </p>
+                    <ul>
+                        <li>El tipo de equipamiento que necesita la red</li>
+                        <li>Las capacidades del equipo</li>
+                        <li>El crecimiento de la red</li>
+                        <li>Las formas de gestionar la red</li>
+                    </ul>
+                    <p>
+                        Desarrollar criterios sobre como utilizar las diferentes topologías es clave para 
+                        comprender las capacidades de los diferentes tipos de redes.
+                    </p>
+                    <p>
+                        Antes de que los equipos puedan compartir recursos o realizar otras tareas de comunicaciones,
+                        necesitan estar conectadas. En la mayoría de las redes, se utilizan cables para conectar un
+                        equipo a otro.
+                    </p>
+                </article>
+            </section>
+            <section class="main-section" id="Topologias_estandar">
+                <header>Topologias estandar</header>
+                <article>
+                    <p>
+                        Todos los diseños de redes parten de cuatro topologías básicas:
+                    </p>
+                    <ul>
+                        <li>Bus</li>
+                        <li>Estrella</li>
+                        <li>Anillo</li>
+                        <li>Malla</li>
+                    </ul>
+                    <p>
+                        <h3 class="sub-tema" id="sub-bus">Bus</h3>
+                    </p>
+                    <p>
+                        Los equipos de una red con topología en bus se comunican enviando datos a un equipo 
+                        particular, mandando estos datos sobre el cable en forma de señales electrónicas.
+                        Los datos de red en forma de señales electrónicas se envían a todos los equipos de la 
+                        red. La información sólo es aceptada por aquel equipo cuya dirección coincida con la 
+                        dirección codificada en la señal original. 
+                    </p>
+                    <p>
+                        Los restantes equipos rechazan los datos. En cada momento, sólo puede haber un equipo
+                        enviando mensajes. Por esta razón, el número de equipos conectados al bus afectará al 
+                        rendimiento de la red. Cuantos más equipos haya en un bus, más equipos estarán esperando 
+                        para transmitir datos por el bus y la red será más lenta. Los equipos conectados a un bus 
+                        o transmiten datos a otros equipos de la red o están escuchando datos procedentes de otros 
+                        equipos de la red. No son responsables de pasar datos de un equipo al siguiente. 
+                        Por consiguiente, si falla un equipo, esto no afecta al resto de la red.
+                    </p>
+                    <p>
+                        <h3 class="sub-tema" id="sub-estrella">Estrella</h3>
+                    </p>
+                    <p>
+                        En la topología en estrella, los segmentos de cable de cada equipo están conectados a 
+                        un componente centralizado llamado hub. Las señales son transmitidas desde el equipo 
+                        emisor a través del hub a todos los equipos de la red. El tipo de cable sugerido para 
+                        esta topología es el cable par trenzado.
+                    </p>
+                    <p>
+                        <h3 class="sub-tema" id="sub-anillo">Anillo</h3>
+                    </p>
+                    <p>
+                        La topología en anillo conecta equipos en un único círculo de cable coaxial. A 
+                        diferencia de la topología en bus, no existen finales con terminadores. La señal viaja 
+                        a través del bucle en una dirección, y pasa a través de cada equipo que puede actuar 
+                        como repetidor para amplificar la señal y enviarla al siguiente equipo, a este fenómeno 
+                        o método para transmitir los datos alrededor del anillo se le conoce con el nombre de 
+                        TOKEN RING o PASO DE TESTIGO
+                        (un testigo es una secuencia especial de bits que viajan alrededor de una red Token 
+                        Ring. Cada red tiene únicamente un testigo). El testigo es pasado de equipo en equipo 
+                        hasta que llega a un equipo que tiene datos que enviar. El equipo emisor modifica el 
+                        testigo, pone una dirección electrónica en los datos y los envía por el anillo.
+                    </p> 
+                    <p>
+                        <h3 class="sub-tema" id="sub-malla">Malla</h3>
+                    </p>    
+                    <p>
+                        La topología de malla es en la que cada nodo está conectado a todos los nodos. De esta 
+                        manera es posible llevar los mensajes de un nodo a otro por distintos caminos. Si la 
+                        red de malla está completamente conectada, no puede existir absolutamente ninguna 
+                        interrupción en las comunicaciones.
+                    </p>
+                    <p>
+                        Las aplicaciones de las redes con topología de malla generalmente se relacionan con las 
+                        ventajas que ofrecen las mismas. Estas suelen incluir: automatización industrial, 
+                        gestión de energía, edificaciones inteligentes, gestión de activos, weareables, IoT, 
+                        entre otros.
+                    </p>               
+                </article>
+            </section>
+            <section class="main-section" id="Consideraciones_sobre_hubs">
+                <header>Consideraciones sobre hubs</header>
+                <article>
+                    <p>
+                        Los sistemas basados en hubs son versátiles y ofrecen varias ventajas sobre los 
+                        sistemas que no utilizan hubs.
+                    </p>
+                    <p>
+                        En la topología estándar de bus lineal, una rotura en el cable hará caer toda la red. 
+                        Sin embargo, utilizando hubs, una rotura en cualquiera de los cables conectados al hub 
+                        solo afecta a un segmento limitado de la red.
+                    </p>
+                    <p>
+                        La topologías basadas en hubs incluyen los siguientes beneficios:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Los sistemas de cableado pueden ser modificados o ampliados a medida que sea
+                                necesario.
+                            </li>
+                            <li>Se pueden usar puertos diferentes para adaptarse a diversos sistemas de 
+                                cablado.
+                            </li>
+                            <li>Se pueden centralizar la monitorización de la actividad y el tráfico de la red</li>
+                        </ul>
+                    </p>
+                </article>
+            </section>
+                <section class="main-section" id="Como_formarte_en_redes_informaticas">
+                    <header>Como formarte en redes informaticas</header>
+                    <article>
+                        <p>
+                            Si quieres formarte para poder trabajar con la topología de red, establecerla y 
+                            conocer sus entresijos te recomendamos una formación especializada en redes 
+                            informáticas. En este sentido puedes optar por un curso de especialización en 
+                            CISCO CCNAv7 que te convertirá en un especialista de redes informáticas. 
+                        </p>
+                        <p>
+                            Se centra en las tecnologías inalámbricas, la seguridad de switches, la seguridad 
+                            de la red y la automatización de la red. Aprende los conocimientos necesarios para 
+                            instalar, configurar, operar y solucionar problemas de infraestructuras de red; 
+                            para el acceso y control de tráfico de internet, seguridad en comunicaciones e 
+                            infraestructuras.
+                        </p>
+                        <p>
+                            Ahora ya conoces qué son las topologías de red y cómo diferenciarlas. Si deseas 
+                            formarte en redes informáticas y lograr un trabajo con alta demanda, puedes hacerlo 
+                            con una academia a tu medida y especializada en este sector como es Tokio School.
+                        </p>
+                    </article>
+                </section>
+                <section class="main-section" id="Herramientas_de_software">
+                    <header>Herramientas de software</header>
+                    <article>
+                        <p>
+                            Existe una variedad de utilidades disponibles que funcionan con el protocolo TCP/IP 
+                            para documentar el rendimiento de la red.
+                        </p>
+                        <p>
+                            <h3>Packet Internet Groper (Ping)</h3>
+                        </p>
+                        <p>
+                            Para comprobar si la conexión de la red es completa desde el servidor hacia la 
+                            estación, se puede utilizar una utilidad simple, el Packet Internet Groper, mejor 
+                            conocido como «ping». La utilidad ping funciona enviando un mensaje a un equipo 
+                            remoto. Si el equipo remoto recibe el mensaje, responde con un mensaje de 
+                            contestación. La respuesta consta de la dirección IP de la estación remota, el 
+                            número de bytes del mensaje, el tiempo que se tardó en responder (en milisegundos, 
+                            ms) y el tiempo de espera (TTL, Time-To-Live) en segundos.
+                        </p>
+                        <p>
+                            Lo siguiente es un ejemplo de la utilidad ping:
+                            </p>
+                            <p>
+                            <code>
+                                C:\>Ping 125.55.222.1<br>
+                                Reply from 125.55.222.1: bytes=32 time=100 ms TTL=50<br>
+                                Reply from 125.55.222.1: bytes=32 time=100 ms TTL=50<br>
+                                Reply from 125.55.222.1: bytes=32 time=100 ms TTL=50<br>
+                                Reply from 125.55.222.1: bytes=32 time=100 ms TTL=50<br>
+                            </code>
+                        </p>
+                        <p>
+                            <h3>Tracert</h3>
+                        </p>
+                        <p>
+                            Otra utilidad que documenta el rendimiento de la red se llama «tracert». La 
+                            equivalente en UNIX se llama «traceroute». Mientras la utilidad ping, simplemente, 
+                            permite conocer si la conexión desde A hacia B es completa, tracert informa sobre 
+                            el camino y el número de saltos que da el paquete de datos hasta llegar a su 
+                            destino.
+                        </p>
+                        <p>
+                            Un ejemplo simplificado de una respuesta de tracert:
+                        </p>
+                        <p>
+                            <code>
+                                C:\>Tracert 100.50.200.10<br>
+                                1 125 ms 150 ms 155 ms Widgets.Ozona.F1 .gte.net<br>
+                                2 160 ms 165 ms 170 ms BZNet.Memphis. TN<br>
+                                3 175 ms 180 ms 185 ms Mtnnet Denver. CO<br>
+                                4 190 ms 200 ms 210 ms Widgets, Seattle.WA<br>
+                            </code>
+                        </p>
+                        <p>
+                            <h3>Ipconfig</h3>
+                        </p>
+                        <p>
+                            Este comando de diagnóstico muestra todos los valores actuales de la configuración 
+                            de la red TCP/IP. Este comando es de uso en sistemas que ejecutan DHCP, permitiendo 
+                            que los usuarios determinen los valores de configuración de TCP/IP que han sido 
+                            establecidos por DHCP.
+                        </p>
+                        <p>
+                            Un ejemplo simplificado de una respuesta de Ipconfig:
+                        </p>
+                        <p>
+                            <code>
+                                C:\>Ipconfig<br>
+                                Adaptador de LAN inalámbrica Conexión de área local* 1:<br>
+
+                                    Estado de los medios. . . . . . . . . . . : medios desconectados<br>
+                                    Sufijo DNS específico para la conexión. . :<br>
+
+                                    Adaptador de LAN inalámbrica Conexión de área local* 2:<br>
+
+                                    Estado de los medios. . . . . . . . . . . : medios desconectados<br>
+                                    Sufijo DNS específico para la conexión. . :<br>
+
+                                    Adaptador de Ethernet Ethernet:<br>
+
+                                    Estado de los medios. . . . . . . . . . . : medios desconectados<br>
+                                    Sufijo DNS específico para la conexión. . :<br>
+
+                                    Adaptador de LAN inalámbrica Wi-Fi:<br>
+
+                                    Sufijo DNS específico para la conexión. . :<br>
+                                    Vínculo: dirección IPv6 local. . . : fe80::69c3:2a6d:14d2:d855%13<br>
+                                    Dirección IPv4. . . . . . . . . . . . . . : 192.168.1.4<br>
+                                    Máscara de subred . . . . . . . . . . . . : 255.255.255.0<br>
+                                    Puerta de enlace predeterminada . . . . . : 192.168.1.1<br>
+                            </code>
+                        </p>
+                        <p>
+                            <h3>Netstat</h3>
+                        </p>
+                        <p>
+                            Este comando está disponible sólo si se ha instalado el protocolo TCP/IP. Netstat 
+                            muestra todas las conexiones y los puertos de escucha, las estadísticas, 
+                            direcciones y número de puertos de Ethernet, las conexiones y estadísticas de los 
+                            protocolos y los contenidos de la tabla de encaminamiento.
+                        </p>
+                        <p>
+                            Un ejemplo simplificado de una respuesta de Netstat:
+                        </p>
+                        <p>
+                            <code>
+                                C:\>Netstat<br>
+                                <p>Conexiones activas</p>
+
+                                Proto  Dirección local        Dirección remota       Estado<br>
+                                TCP    192.168.1.4:51529      172.67.38.66:https     ESTABLISHED<br>
+                                TCP    192.168.1.4:51533      52.226.139.185:https   ESTABLISHED<br>
+                                TCP    192.168.1.4:51537      vl-in-f188:5228        ESTABLISHED<br>
+                                TCP    192.168.1.4:51545      a23-64-141-227:https   CLOSE_WAIT<br> 
+                            </code>
+                        </p>
+                        <p>
+                            <h3>Nbtstat</h3>
+                        </p>
+                        <p>
+                            Nbtstat está disponible sólo si se ha instalado el protocolo TCP/IP. Éste muestra 
+                            las estadísticas de los protocolos y las conexiones TCP/IP actuales utilizando 
+                            NetBIOS sobre TCP/IP. 
+                        </p>
+                        <p>
+                            Un ejemplo simplificado de una respuesta de Nbtstat:
+                        </p>
+                        <p>
+                            <code>
+                                C:\>Nbtstat<br>
+                                -a   (estado del adaptador) Hace una lista de la tabla de nombres de<br>
+                                    los equipos remotos según su nombre<br>
+                                -A   (estado del adaptador) hace una lista de la tabla de nombres de<br>
+                                    los equipos remotos según sus direcciones de IP.<br>
+                                -c   (caché)   Hace una lista de los nombres [equipo]remotos de la caché<br>
+                                    NBT y sus  direcciones de IP<br>
+                            </code>
+                        </p>
+                    </article>
+                </section>
+                <section class="main-section" id="Referencias">
+                    <header>Referencias</header>
+                    <article>
+                    <ul>
+                        <li>Toda la documentación fue tomada de <a href="https://www.tokioschool.com/noticias/" target="_blank">Tokio School</a></li>
+                    </ul>
+                </article>
+                </section>            
+        </main>
+    </body>
+</html>
